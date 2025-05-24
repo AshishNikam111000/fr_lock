@@ -1,0 +1,30 @@
+To activate venv: Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
+FLOW --> 
+ - setup phase
+    - a phase where users face will be captured in different angels
+    - system's password will be provided by user
+ - when face detected, 
+    - unlock the system with the password
+    - password is provided to application in setup phase
+    - type the password using pyautogui
+ - when face not detected, simply lock the system
+
+DONE -->
+ - Does camera stays on when the screen is locked? = Yes
+ - take pictures
+    - detect faces and filter them
+    - extract data
+    - analyze and create dataset
+ - create model
+ - train the model
+ - optimize the model
+ - save the model
+ - use the model for locking
+
+TODO -->
+ - unlocking the system
+
+FUTURE WORK -->
+ - create UI for the setup phase
+ - run application in background (system tray)
