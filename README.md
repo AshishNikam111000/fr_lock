@@ -1,7 +1,7 @@
 # 🔓 Face Recognition Automatic Lock
 A Python-based facial recognition system that allows users to lock your system using their face. Built using OpenCV and PyTorch, this project demonstrates the application of computer vision for biometric automatic locking mechanism.
 
-This program automatically locks the system when you move away from your system, making the system safer.
+This program automatically locks the system when you move away from your system, making the system safer. It captures 
 
 ## 🧰 Tech Stack
 - Python 3.8+
