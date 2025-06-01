@@ -1,5 +1,4 @@
 import ctypes
-import pyautogui
 
 def is_system_locked():
     user32 = ctypes.windll.User32
@@ -10,6 +9,3 @@ def lock_system():
 
 def unlock_system():
     print("There is no way to programmitically unlock system.")
-    # pyautogui.FAILSAFE = False
-    # pyautogui.press('enter')
-    # pyautogui.typewrite("password", interval=1)
